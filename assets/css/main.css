@@ -1,0 +1,108 @@
+/* assets/css/custom-font.css */
+  @font-face {
+      font-family: 'MabryPro';
+      src: url('~assets/fonts/MabryPro-Regular.woff2') format('woff2'), /* Modern Browsers */
+            url('~assets/fonts/MabryPro-Regular.woff') format('woff'); /* Older Browsers */
+      /* Add additional font formats (e.g., .ttf, .eot) if necessary */
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    p {
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+
+    .color-black {
+      color: black;
+    }
+  
+    .font-14 {
+      font-size: 14px !important;
+    }
+
+    .font-16 {
+      font-size: 16px !important;
+    }
+  
+    .font-20 {
+      font-size: 20px !important;
+    }
+
+    .font-40 {
+      font-size: 40px !important;
+    }
+
+    .max-width {
+      max-width: 216px !important;
+    }
+
+    .max-height {
+      height: 86px !important;
+    }
+
+    .no-uppercase {
+      text-transform: unset !important;
+    }
+    .no-letter-spacing {
+      letter-spacing: 0 !important;
+    }
+    
+    .border-top-black {
+      border-top: 1px solid black !important;
+    }
+
+    .border-bottom-black {
+      border-bottom: 1px solid black !important;
+    }
+
+    .border-right-black {
+      border-right: 1px solid black !important;
+    }
+
+    .border-left-black {
+      border-left: 1px solid black !important;
+    }
+
+    .border-black {
+      border: 1px solid black !important;
+    }
+
+    .gumroad:hover {
+      transform: translate(-4px, -4px);
+      box-shadow: 5px 5px;
+    }
+
+    .gumroad:active {
+      transform: translate(0px, 0px);
+      box-shadow: 0px 0px;
+    }
+
+    .gumroad-other{
+      transition: .3s !important;
+    }
+
+    .gumroad-other:hover {
+      transform: translate(-4px, -4px);
+      box-shadow: 5px 5px black !important;
+      transition: .3s;
+    }
+
+    .gumroad-other:active {
+      transform: translate(0px, 0px);
+      box-shadow: 0px 0px !important;
+      transition: .3s;
+    }
+
+    .card-block {
+      padding: 15px 0px 15px 20px;
+      border-bottom: 1px solid black;
+    }
+
+    .cursor-pointer {
+      cursor: pointer;
+    }
+
+    .w-100p {
+      width: 100%;
+    }
